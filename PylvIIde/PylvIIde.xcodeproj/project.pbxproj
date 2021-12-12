@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2695E33E6AAF388DFC167F05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695E65B3041B0724B80653E /* SceneDelegate.swift */; };
+		2695E4265D5C4BE688F2F898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695E8C29144690104A53135 /* LaunchScreen.storyboard */; };
+		2695E8D76AD059649B4ED004 /* PylvIIde.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2695E198540DD476DD5FD90F /* PylvIIde.xcdatamodeld */; };
+		2695EA2733A0A43CB92970B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2695EF4BADCC0872CC77ACE0 /* Assets.xcassets */; };
+		2695EA4E774AC26A90F5B5D9 /* PylvIIdeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695E9FD5498EA34FF7F18BC /* PylvIIdeUITests.swift */; };
+		2695ED37EBDDC0F5977325A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695E81F03CB94A2043F03BB /* ContentView.swift */; };
+		2695EDF11E89732EF1D3ED14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695E2ECB1BAB6EE21B291F1 /* AppDelegate.swift */; };
+		2695EE90CC32314DD95C3C82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2695EC19F1D4A443569CA7F6 /* Preview Assets.xcassets */; };
+		2695EF81DC2E0D66CD66A257 /* PylvIIdeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695EBC5B16A7806A41DA379 /* PylvIIdeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2695E785E1416FE02F17A226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2695EA6681C0C03AEBF1BB1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2695E40254C97AF2F8DB650D;
+			remoteInfo = PylvIIde;
+		};
+		2695EF879990588A7E1F2682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2695EA6681C0C03AEBF1BB1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2695E40254C97AF2F8DB650D;
+			remoteInfo = PylvIIde;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2695E01ED20B4711AE5CE27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2695E2C3698729B7B980EE33 /* PylvIIde.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PylvIIde.xcdatamodel; sourceTree = "<group>"; };
+		2695E2ECB1BAB6EE21B291F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2695E5245766EF2190086437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2695E65B3041B0724B80653E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2695E7310E9A95442E074A1D /* PylvIIdeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PylvIIdeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2695E81F03CB94A2043F03BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2695E93CAB665603CE90105F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2695E9CBD98DC9F9232EDAFA /* PylvIIdeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PylvIIdeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2695E9FD5498EA34FF7F18BC /* PylvIIdeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PylvIIdeUITests.swift; sourceTree = "<group>"; };
+		2695EBC5B16A7806A41DA379 /* PylvIIdeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PylvIIdeTests.swift; sourceTree = "<group>"; };
+		2695EC19F1D4A443569CA7F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2695EE22EF56CCBFAF19300F /* PylvIIde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PylvIIde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2695EEDBCA549B9BACFA06FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2695EF4BADCC0872CC77ACE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2695E2515DF50FD701F160E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E4849FAB9063DB50EDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E67E20D953E033868FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2695E2650124CAE4C9E70723 = {
+			isa = PBXGroup;
+			children = (
+				2695E3B27D06E74313F67FD1 /* Products */,
+				2695EA0B352E450EC932C382 /* PylvIIde */,
+				2695EB3602BC492C30D1CEEB /* PylvIIdeTests */,
+				2695EDC7236009B65ED91D18 /* PylvIIdeUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		2695E3B27D06E74313F67FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2695EE22EF56CCBFAF19300F /* PylvIIde.app */,
+				2695E7310E9A95442E074A1D /* PylvIIdeTests.xctest */,
+				2695E9CBD98DC9F9232EDAFA /* PylvIIdeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2695E4B5E5833660670B3BBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2695EC19F1D4A443569CA7F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2695E5F126085B2FDD25948E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		2695EA0B352E450EC932C382 /* PylvIIde */ = {
+			isa = PBXGroup;
+			children = (
+				2695E01ED20B4711AE5CE27A /* Info.plist */,
+				2695EF4BADCC0872CC77ACE0 /* Assets.xcassets */,
+				2695E8C29144690104A53135 /* LaunchScreen.storyboard */,
+				2695E2ECB1BAB6EE21B291F1 /* AppDelegate.swift */,
+				2695E198540DD476DD5FD90F /* PylvIIde.xcdatamodeld */,
+				2695E65B3041B0724B80653E /* SceneDelegate.swift */,
+				2695E81F03CB94A2043F03BB /* ContentView.swift */,
+				2695E4B5E5833660670B3BBB /* Preview Content */,
+				2695E5F126085B2FDD25948E /* Logic */,
+			);
+			path = PylvIIde;
+			sourceTree = "<group>";
+		};
+		2695EB3602BC492C30D1CEEB /* PylvIIdeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2695EEDBCA549B9BACFA06FE /* Info.plist */,
+				2695EBC5B16A7806A41DA379 /* PylvIIdeTests.swift */,
+			);
+			path = PylvIIdeTests;
+			sourceTree = "<group>";
+		};
+		2695EDC7236009B65ED91D18 /* PylvIIdeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2695E5245766EF2190086437 /* Info.plist */,
+				2695E9FD5498EA34FF7F18BC /* PylvIIdeUITests.swift */,
+			);
+			path = PylvIIdeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2695E40254C97AF2F8DB650D /* PylvIIde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2695E0E8F0BC2E160399F1CD /* Build configuration list for PBXNativeTarget "PylvIIde" */;
+			buildPhases = (
+				2695E2EDC9EAF752507D8C35 /* Sources */,
+				2695E4849FAB9063DB50EDE0 /* Frameworks */,
+				2695ED7CB84805AC6A097E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PylvIIde;
+			productName = PylvIIde;
+			productReference = 2695EE22EF56CCBFAF19300F /* PylvIIde.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2695EDA130A09BBED271561A /* PylvIIdeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2695E57F88C5D5C46088E42E /* Build configuration list for PBXNativeTarget "PylvIIdeUITests" */;
+			buildPhases = (
+				2695E99638547E0602CA31F5 /* Sources */,
+				2695E2515DF50FD701F160E9 /* Frameworks */,
+				2695E43CAAFDC7B99046C3DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2695E1F825685381C1F4D6D8 /* PBXTargetDependency */,
+			);
+			name = PylvIIdeUITests;
+			productName = PylvIIdeUITests;
+			productReference = 2695E9CBD98DC9F9232EDAFA /* PylvIIdeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2695EDE10065DDC85A57CDB3 /* PylvIIdeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2695E1872AC61418F8AB7307 /* Build configuration list for PBXNativeTarget "PylvIIdeTests" */;
+			buildPhases = (
+				2695E525E02D38A7FE1512BA /* Sources */,
+				2695E67E20D953E033868FD4 /* Frameworks */,
+				2695EFB2FF620A43686B5AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2695ED7CAC9ECF9A56D6B5ED /* PBXTargetDependency */,
+			);
+			name = PylvIIdeTests;
+			productName = PylvIIdeTests;
+			productReference = 2695E7310E9A95442E074A1D /* PylvIIdeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2695EA6681C0C03AEBF1BB1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 2695EF7739BD29E6F2A2B853 /* Build configuration list for PBXProject "PylvIIde" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2695E2650124CAE4C9E70723;
+			productRefGroup = 2695E3B27D06E74313F67FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2695E40254C97AF2F8DB650D /* PylvIIde */,
+				2695EDE10065DDC85A57CDB3 /* PylvIIdeTests */,
+				2695EDA130A09BBED271561A /* PylvIIdeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2695E43CAAFDC7B99046C3DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695ED7CB84805AC6A097E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695EA2733A0A43CB92970B9 /* Assets.xcassets in Resources */,
+				2695E4265D5C4BE688F2F898 /* LaunchScreen.storyboard in Resources */,
+				2695EE90CC32314DD95C3C82 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695EFB2FF620A43686B5AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2695E2EDC9EAF752507D8C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695EDF11E89732EF1D3ED14 /* AppDelegate.swift in Sources */,
+				2695E8D76AD059649B4ED004 /* PylvIIde.xcdatamodeld in Sources */,
+				2695E33E6AAF388DFC167F05 /* SceneDelegate.swift in Sources */,
+				2695ED37EBDDC0F5977325A0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E525E02D38A7FE1512BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695EF81DC2E0D66CD66A257 /* PylvIIdeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E99638547E0602CA31F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695EA4E774AC26A90F5B5D9 /* PylvIIdeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2695E1F825685381C1F4D6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2695E40254C97AF2F8DB650D /* PylvIIde */;
+			targetProxy = 2695E785E1416FE02F17A226 /* PBXContainerItemProxy */;
+		};
+		2695ED7CAC9ECF9A56D6B5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2695E40254C97AF2F8DB650D /* PylvIIde */;
+			targetProxy = 2695EF879990588A7E1F2682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2695E8C29144690104A53135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2695E93CAB665603CE90105F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2695E30EBB4C2397B582470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PylvIIdeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EPILANG.PylvIIdeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PylvIIde;
+			};
+			name = Release;
+		};
+		2695E3D1904D4581FCDB6A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"PylvIIde/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PylvIIde/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EPILANG.PylvIIde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2695E7B8B86CD81DC44CC6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PylvIIdeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EPILANG.PylvIIdeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PylvIIde;
+			};
+			name = Debug;
+		};
+		2695E8BB734C1E99AC4333CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2695ECFCADC0004C0046DE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"PylvIIde/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PylvIIde/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EPILANG.PylvIIde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2695ED2D090B3F1F6EF7939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PylvIIde.app/PylvIIde";
+				INFOPLIST_FILE = PylvIIdeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EPILANG.PylvIIdeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		2695EDA724BABEF3E5DC7E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PylvIIde.app/PylvIIde";
+				INFOPLIST_FILE = PylvIIdeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EPILANG.PylvIIdeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2695EE593E407D76BFD4773B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2695E0E8F0BC2E160399F1CD /* Build configuration list for PBXNativeTarget "PylvIIde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695ECFCADC0004C0046DE98 /* Debug */,
+				2695E3D1904D4581FCDB6A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2695E1872AC61418F8AB7307 /* Build configuration list for PBXNativeTarget "PylvIIdeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695EDA724BABEF3E5DC7E9D /* Debug */,
+				2695ED2D090B3F1F6EF7939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2695E57F88C5D5C46088E42E /* Build configuration list for PBXNativeTarget "PylvIIdeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695E7B8B86CD81DC44CC6E1 /* Debug */,
+				2695E30EBB4C2397B582470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2695EF7739BD29E6F2A2B853 /* Build configuration list for PBXProject "PylvIIde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695E8BB734C1E99AC4333CF /* Debug */,
+				2695EE593E407D76BFD4773B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2695E198540DD476DD5FD90F /* PylvIIde.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2695E2C3698729B7B980EE33 /* PylvIIde.xcdatamodel */,
+			);
+			currentVersion = 2695E2C3698729B7B980EE33 /* PylvIIde.xcdatamodel */;
+			path = PylvIIde.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2695EA6681C0C03AEBF1BB1E /* Project object */;
+}
